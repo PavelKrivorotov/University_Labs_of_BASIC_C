@@ -8,7 +8,7 @@
 #include <Lab4Window/lab4window.h>
 #include <Lab5Window/lab5window.h>
 #include <Lab6Window/lab6window.h>
-
+#include <Lab7Window/lab7window.h>
 #include <Lab8Window/lab8window.h>
 
 QT_BEGIN_NAMESPACE
@@ -36,14 +36,17 @@ private slots:
 
     void on_pBtnContent_8_clicked();
 
+    void on_pBtnContent_7_clicked();
+
 private:
     Ui::MainWindow *ui;
     Lab1Window *window1;
     Lab2Window *window2;
+
     Lab4Window *window4;
     Lab5Window *window5;
     Lab6Window *window6;
-
+    Lab7Window *window7;
     Lab8Window *window8;
 };
 #endif // MAINWINDOW_H
