@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>Lab4Window/image/img.png</file>
+    </qresource>
+</RCC>

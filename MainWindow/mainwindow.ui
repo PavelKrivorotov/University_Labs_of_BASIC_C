@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>750</width>
+    <height>560</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>600</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>14</pointsize>
+    <bold>true</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>My First Program on C++</string>
+  </property>
+  <widget class="QWidget" name="RootWidget">
+   <layout class="QGridLayout" name="gridLayout_3">
+    <property name="topMargin">
+     <number>10</number>
+    </property>
+    <property name="rightMargin">
+     <number>10</number>
+    </property>
+    <property name="bottomMargin">
+     <number>10</number>
+    </property>
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <item row="0" column="0">
+     <layout class="QGridLayout" name="GLRoot">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item row="2" column="0">
+       <layout class="QHBoxLayout" name="HLBottom">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>25</number>
+        </property>
+        <property name="bottomMargin">
+         <number>35</number>
+        </property>
+        <item>
+         <spacer name="HSpacer_4">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Ignored</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QLabel" name="LAuthor">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>PavelKrivorotov</string>
+          </property>
+          <property name="textFormat">
+           <enum>Qt::AutoText</enum>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="HSpacer_5">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Ignored</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+      <item row="0" column="0">
+       <layout class="QHBoxLayout" name="HLTop">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QPushButton" name="pBtnTopIDK">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>40</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Bookman Old Style</family>
+            <pointsize>9</pointsize>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>IDK</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pBtnTopSettings">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>Bookman Old Style</family>
+            <pointsize>9</pointsize>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Settings</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pBtnTopInfo">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>Bookman Old Style</family>
+            <pointsize>9</pointsize>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Info</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="HSpacer_3">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::MinimumExpanding</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+      <item row="1" column="0">
+       <layout class="QGridLayout" name="GLMiddle">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <item row="1" column="0">
+         <spacer name="HSpacer_6">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Preferred</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>200</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="0" column="1">
+         <spacer name="VSpacer_2">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Preferred</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>100</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="1" column="1">
+         <layout class="QGridLayout" name="GLContent" rowstretch="0,0,0,0" columnstretch="0,0" rowminimumheight="0,0,0,0" columnminimumwidth="0,0">
+          <property name="horizontalSpacing">
+           <number>30</number>
+          </property>
+          <property name="verticalSpacing">
+           <number>15</number>
+          </property>
+          <item row="2" column="0">
+           <widget class="QPushButton" name="pBtnContent_3">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>250</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Labs 3</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QPushButton" name="pBtnContent_1">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>250</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Labs 1</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QPushButton" name="pBtnContent_2">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>250</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Labs 2</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QPushButton" name="pBtnContent_5">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>250</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Labs 5</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QPushButton" name="pBtnContent_6">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>250</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Labs 6</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QPushButton" name="pBtnContent_4">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>250</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Labs 4</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QPushButton" name="pBtnContent_7">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>250</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Labs 7</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QPushButton" name="pBtnContent_8">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>250</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Labs 8</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="1" column="2">
+         <spacer name="HSpacer_7">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Preferred</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>200</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="2" column="1">
+         <spacer name="VSpacer_1">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Preferred</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>100</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
